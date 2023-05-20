@@ -1,0 +1,30 @@
+#title, #a{
+    color: white;
+}
+label{
+    color: white;
+    padding: 7px 7px 7px;
+    width: 100%;
+}
+
+.envoltura{ 
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 5px 1px rgb(107, 104, 104);
+    background-image: linear-gradient(#bd09b7, #6b4cf5)
+}
+
+.box{
+    position: absolute;
+    padding: 5px 5px 15px 15px;
+    bottom: 350px;
+    right: 550px;
+}
+
+@media (main-width: 500px){
+    .envoltura{
+        width: 300%;
+    }
+}
